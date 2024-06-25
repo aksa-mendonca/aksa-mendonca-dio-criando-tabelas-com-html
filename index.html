@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Tabelas</title>
+    <style>
+        table thead th {
+            background-color: black;
+            color: white;
+        }
+        table tfoot td {
+            background-color: rgb(206, 203, 203);
+        }
+        table tbody tr:hover td {
+            background-color: rgb(233, 228, 228);
+            cursor: pointer;
+        }
+        table {
+            border: solid 1px black;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Aula: Tag table
+    <table summary="Serve para que o leitor de tela consiga saber a descrição da tabela" border="1" width="250" cellspacing="0" align="center">
+        <tr align="center">
+            <td>Nome</td>
+            <td>Idade</td>
+        </tr>
+        <tr>
+            <td>Áksa</td>
+            <td>18</td>
+        </tr>
+    </table> -->
+
+    <!-- Aula: Tag tr
+    <table summary="Serve para que o leitor de tela consiga saber a descrição da tabela" border="1" width="250" cellspacing="0" align="center">
+        <tr align="center">
+            <td>Nome</td>
+            <td>Idade</td>
+        </tr>
+        <tr id="1">
+            <td>Áksa</td>
+            <td>18</td>
+        </tr>
+        <tr id="2">
+            <td>Julianne</td>
+            <td>25</td>
+        </tr>
+        <tr id="3">
+            <td>Áquila</td>
+            <td>27</td>
+        </tr>
+        <tr id="4">
+            <td>Adriana</td>
+            <td>42</td>
+        </tr>
+        <tr id="5">
+            <td>Josué</td>
+            <td>48</td>
+        </tr>
+    </table> -->
+
+    <!-- Aula: Tag td e th
+    <table border="1" width="250" cellspacing="0" align="center">
+        <tr align="center" title="Nome Completo">
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>Áksa</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Julianne</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Áquila</td>
+            <td>27</td>
+        </tr>
+        <tr >
+            <td>Adriana</td>
+            <td>42</td>
+        </tr>
+        <tr>
+            <td>Josué</td>
+            <td>48</td>
+        </tr>
+    </table> -->
+
+    <!-- Aula: Tag tbody, thead e tfoot
+    <table border="1" width="250" cellspacing="0" align="center">
+
+        <caption>Tabela de idade da família Mendonça</caption>
+        <thead>
+            <tr align="center" title="Nome Completo">
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Áksa</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Julianne</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Áquila</td>
+                <td>27</td>
+            </tr>
+            <tr >
+                <td>Adriana</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>Josué</td>
+                <td>48</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>5</td>
+            </tr>
+        </tfoot>
+    </table> -->
+
+    <!-- Aula: Estilizando Tabelas
+    <table width="250" cellspacing="0" align="center" cellpadding="5">
+
+        <caption>Tabela de idade da família Mendonça</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Minha Tabela</th>
+            </tr>
+            <tr align="center" title="Nome Completo">
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Áksa</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Julianne</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Áquila</td>
+                <td>27</td>
+            </tr>
+            <tr >
+                <td>Adriana</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>Josué</td>
+                <td>48</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>5</td>
+            </tr>
+        </tfoot>
+    </table> -->
+</body>
+</html>
